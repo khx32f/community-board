@@ -165,7 +165,7 @@ d:\cursor_book\30_community_board\
 │   │       ├── client.ts       # 클라이언트용 Supabase
 │   │       ├── server.ts       # 서버용 Supabase
 │   │       └── middleware.ts   # 세션 + 보호 라우트
-│   └── middleware.ts           # Next.js 미들웨어
+│   └── proxy.ts                # Next.js Proxy (세션 + 보호 라우트)
 ├── .env.local                  # Supabase 연결 정보
 ├── package.json
 ├── tailwind.config.ts
